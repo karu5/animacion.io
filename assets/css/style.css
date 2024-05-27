@@ -138,8 +138,8 @@ footer {
     flex-direction: column;
     height: 6rem;
     padding-top: 1rem;
-    background-color: black;
-    color: #f0db4f;
+    background-color: #f0db4f;
+    color: black;
     grid-area: footer;
     bottom: 0;
 }
@@ -149,6 +149,14 @@ footer {
     flex-direction: row;
     gap: 10px;
     font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.redes {
+display: flex;
+gap: 10px;
+padding: 10px;
+font-size: 20px;
 }
 
  /*             MEDIA QUERIES                 */
